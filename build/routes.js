@@ -10094,7 +10094,8 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "programming"
+          "programming",
+          "popular"
         ],
         "example": "/anthropic/news",
         "parameters": {},
@@ -16385,7 +16386,8 @@ export default {
           "hyoban"
         ],
         "categories": [
-          "social-media"
+          "social-media",
+          "popular"
         ],
         "view": 3,
         "example": "/bilibili/ranking/all",
@@ -53542,8 +53544,7 @@ export default {
         "name": "国家统计局 通用",
         "url": "www.stats.gov.cn",
         "categories": [
-          "government",
-          "popular"
+          "government"
         ],
         "maintainers": [
           "bigfei",
@@ -96731,8 +96732,7 @@ export default {
       "/model/:username/:language?/:sort?": {
         "path": "/model/:username/:language?/:sort?",
         "categories": [
-          "multimedia",
-          "popular"
+          "multimedia"
         ],
         "view": 3,
         "example": "/pornhub/model/stacy-starando",
